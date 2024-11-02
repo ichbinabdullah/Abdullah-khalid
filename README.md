@@ -115,3 +115,102 @@ Botium Toys is expanding to offer services and handle the data of customers abro
 
 .Botium Toys needs to establish and maintain appropriate user access for internal and external (third-party vendor) personnel to mitigate risk and ensure data safey.
 Both of these standards evaluate the effectiveness of a company's internal controls. While SOC1 I focused on financial reporting controls, SOC2 is concerned with information security controls, including customer data safety.
+
+# Stakeholder memorandum
+
+TO: IT Manager, Stakeholders
+
+FROM: Abdullah Khalid
+DATE: 02/11/2024
+SUBJECT: Internal IT Audit Findings and Recommendations
+
+Dear Colleagues,
+
+Please review the following information regarding the Botium Toys internal audit scope, goals, critical findings, summary and recommendations.
+
+**Scope:**
+
+The following systems are in scope: accounting, end point detection, firewalls, intrusion detection system, security information and event management (SIEM) tool. The systems will be evaluated for:
+
+> Current user permissions
+
+> Current implemented controls
+
+> Current procedures and protocols
+
+> Ensuring current user permissions, controls, procedures, and protocols in place align with GDPR, PCI DSS, compliance requirements
+
+> Ensure current technology and assets are accounted for both hardware and system access.
+
+**Goals:**
+
+> Adhere to the NIST CSF.
+
+> Establish a better process for their systems to ensure they are compliant
+
+> Fortify system controls
+
+> Implement the concept of least permissions when it comes to user credential management
+
+> Establish their policies and procedures, which includes their playbooks
+
+**Critical findings** (must be addressed immediately):
+
+Multiple controls need to be developed and implemented to meet the audit goals, including:
+
+> Principle of Least Privilege and Separation of duties
+
+> Disaster recovery plans
+
+> Password, Access control, and Account management policies
+
+> Intrusion Detection System (IDS)
+
+> Encryption (secure website transactions wand disk drive(s) containing sensitive information)
+
+> Backups
+
+> Implementation of a Password management system
+
+> Antivirus (AV) software
+
+> Manual monitoring, maintenance, and intervention for legacy systems
+
+> Closed-circuit television (CCTV) surveillance
+
+> Locks
+
+> Locking cabinets (for network gear)
+
+> Fire detection and prevention (fire alarm, sprinkler system, etc.)
+
+> Policies need to be developed and implemented for the following:
+
+    .To meet PCI DSS and GDPR compliance requirements.
+
+    .To meet SOC1 and SOC2 guidance related to user access policies and overall data safety.
+
+**Findings** (should be addressed, but no immediate need):
+
+The following physical controls should be considered in the future once the critical findings have been resolved:
+
+ .Time-controlled safe
+
+ .Adequate lighting
+
+ .Signage indicating alarm service provider for restricted areas
+
+**Summary/Recommendations:**
+
+It is recommended that the critical findings relating to compliance with PCI and GDPR be promptly addressed as Botium Toys accepts online payments is expanding to offer services and handle the data of customers abroad including the European Union. SOC1 and SOC2 guidance related to user access policies should be used to align to the audit goal to adapt to the concept of least permissions to develop the policies and procedures needed to be compliant.
+
+Disaster recovery plans and backups are recommended as they will support business continuity in the event of an incident occuring ranging from a physical disaster such as a fire, or worse case scenario of a cyber attack or technical issue impacting business productivity  as a part of a data and system resilience strategy. A method of fire detection and prevention systems is worth consideration for protecting against physical attacks.
+
+Integrating an IDS and AV software into current systems will give the ability to assist with intrusion detection and spot and mitigate potential risks while taking into account the existing legacy systems that need manual monitoring and intervention.
+
+To secure assets at Botium Toys' phyiscal location, locks and CCTV should be used to secure physical assets and to monitor for potential threats. Having a time-controlled safe, adequate lighting, and signage indicating alarm service provider will further improve Botium Toys' security posture.
+
+# Conclusion
+This concludes my mock security audit writeup, I hope you found it useful and enlightening as I have. If there is any constructive feedback or suggestions to improve and include, just let me know.
+
+**Self-Evaluation:** I did mostly well in determining what controls are top priority and need implementation immediately in reducing risk and why Botium Toys would need to comply to the regulations and standards I initially picked on my first try. I really loved the challenge of this assignment and tested what I have learned in my studies and hands-on learning.
